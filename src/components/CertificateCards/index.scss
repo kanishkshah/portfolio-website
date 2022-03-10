@@ -1,0 +1,35 @@
+.certificateCards {
+	width: 300px;
+	border-radius: 7px !important;
+	border: 1px solid #d9dbdf;
+	box-shadow: 5px 5px 5px #d9dbdf !important;
+
+	.image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 150px;
+		img {
+			width: 100%;
+			height: 160px;
+			object-fit: contain;
+		}
+	}
+	.text {
+		padding: 10px;
+		text-align: center;
+		@media (max-width: 900px) {
+			h3 {
+				font-size: 18px;
+			}
+			p {
+				font-size: 16px;
+			}
+		}
+		@media (max-width: 500px) {
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+}

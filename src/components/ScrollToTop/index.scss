@@ -1,0 +1,19 @@
+.scroll {
+  position: fixed;
+  bottom: 20px;
+  right: 95px;
+  z-index: 1;
+  padding: 16px 12px;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  @media (min-width: 1500px) {
+    bottom: 2em;
+    right: 7em;
+  }
+  &:hover {
+    transform: translateY(-3px);
+    transition: 0.3s all ease-in-out;
+  }
+}

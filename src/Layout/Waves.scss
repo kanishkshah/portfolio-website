@@ -1,0 +1,12 @@
+.waves {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.footer__waves {
+  position: relative;
+}

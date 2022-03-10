@@ -1,0 +1,95 @@
+@mixin flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact {
+	@include flex;
+	// width: 100vw;
+	margin: 80px 35px 0 35px;
+	@media (max-width: 800px) {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	&__image {
+		flex: 0.4 1;
+		@include flex;
+		& > * {
+			cursor: pointer;
+			// width: 300px;
+			border-radius: 50%;
+			object-fit: contain;
+			box-shadow: 0 30px 30px -30px #000;
+			transition: all 0.3s ease-out;
+			&:hover {
+				box-shadow: none;
+			}
+		}
+	}
+	&__details {
+		flex: 0.6 0;
+		@media (max-width: 500px) {
+			flex: 1 1;
+		}
+		margin-top: 20px;
+		text-align: center;
+		width: -webkit-fill-available;
+		& > * {
+			margin-top: 5px;
+		}
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
+		h1 {
+			font-size: 55px;
+			font-weight: 500;
+			@media (max-width: 900px) {
+				font-size: 40px;
+			}
+		}
+		@media (max-width: 950px) {
+			.contact__logo {
+				width: 25px;
+				height: inherit;
+			}
+		}
+		p {
+			font-size: 18px;
+			@media (max-width: 500px) {
+				font-size: 16px;
+			}
+		}
+		div {
+			@include flex;
+			// flex-wrap: wrap;
+			& > * {
+				margin: 2px 5px 2px 0;
+			}
+		}
+		.contact__address {
+			flex-wrap: wrap;
+		}
+		.contact__contact {
+			flex-wrap: wrap;
+		}
+
+		.contact__buttons {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			& > * {
+				margin: 0 5px;
+			}
+		}
+		#contact__button {
+			display: flex;
+			justify-content: space-between;
+			.contact__github {
+				margin-right: 7px;
+			}
+			align-items: center;
+		}
+	}
+}

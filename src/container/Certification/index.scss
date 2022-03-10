@@ -1,0 +1,25 @@
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.certification{
+    text-align: center;
+    @include flex;
+    flex-direction: column;
+    margin: 80px 35px 40px 35px;
+    h1{
+        font-size: 45px;
+        font-weight: 500;
+        @media (max-width: 900px){
+            font-size: 40px;
+        }
+    }
+    &__cards{
+        @include flex;
+        flex-wrap: wrap;
+        & > *{
+            margin: 10px;
+        }
+    }
+}
