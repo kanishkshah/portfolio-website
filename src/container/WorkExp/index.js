@@ -3,7 +3,6 @@ import "./index.scss";
 import ExperienceCard from "../../components/ExperienceCard";
 import { Fade } from "react-reveal";
 import React from "react";
-import ViewMore from "../../components/ViewMore";
 import { experience } from "../../portfolio";
 
 const WorkExp = ({ isHome }) => {

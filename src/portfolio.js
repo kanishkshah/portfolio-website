@@ -78,16 +78,10 @@ const skills = {
 	],
 	skills: [
 		{
-			name: "ReactJs",
+			name: "Python",
 			style: {
-				color: "#61DAFB",
-			},
-		},
-		{
-			name: "Javascript",
-			style: {
-				backgroundColor: "#000000",
-				color: "#F7DF1E",
+				backgroundColor: "transparent",
+				color: "#ffe873",
 			},
 		},
 		{
@@ -97,54 +91,9 @@ const skills = {
 			},
 		},
 		{
-			name: "CSS",
+			name: "Cpp",
 			style: {
-				color: "#1572B6",
-			},
-		},
-		{
-			name: "SASS",
-			style: {
-				color: "#CC6699",
-			},
-		},
-		{
-			name: "Bootstrap",
-			style: {
-				color: "#563d7c",
-			},
-		},
-		{
-			name: "Material UI",
-			style: {
-				color: "#2596be",
-			},
-		},
-		{
-			name: "HTML",
-			style: {
-				color: "#E34F26",
-			},
-		},
-		{
-			name: "GatsbyJS",
-			style: {
-				color: "#663399",
-			},
-		},
-		{
-			name: "NodeJs",
-			style: {
-				color: "#339933",
-			},
-		},
-		// {
-		// 	name: "express.js",
-		// },
-		{
-			name: "npm",
-			style: {
-				color: "#CB3837",
+				color: "#5c8dbc",
 			},
 		},
 		{
@@ -154,22 +103,80 @@ const skills = {
 			},
 		},
 		{
-			name: "Firebase",
+			name: "Github",
+			style: {
+				color: "black"
+			}
+		},
+		{
+			name: "Javascript",
+			style: {
+				color: "#F7DF1E",
+			},
+		},
+		{
+			name: "Tensorflow",
 			style: {
 				color: "#F6820D",
 			},
 		},
 		{
-			name: "Adobe Xd",
+			name: "Pytorch",
 			style: {
-				color: "#FF2BC2",
+				backgroundColor: "#000000",
+				color: "#ee4c2c",
 			},
 		},
 		{
-			name: "Python",
+			name: "Numpy",
 			style: {
-				backgroundColor: "transparent",
-				color: "#3776AB",
+				backgroundColor: "#000000",
+				color: "#4d77cf",
+			},
+		},
+		{
+			name: "Pandas",
+			style: {
+				backgroundColor: "#000000",
+				color: "purple",
+			},
+		},
+		{
+			name: "Keras",
+			style: {
+				backgroundColor: "#000000",
+				color: "#d00000",
+			},
+		},
+		{
+			name: "Sklearn",
+			style: {
+				backgroundColor: "#000000",
+				color: "black",
+			},
+		},
+		{
+			name: "Django",
+			style: {
+				color: "#1572B6",
+			},
+		},
+		{
+			name: "Flask",
+			style: {
+				color: "black",
+			},
+		},
+		{
+			name: "OpenCV",
+			style: {
+				color: "#1572B6",
+			},
+		},
+		{
+			name: "OpenAI Gym",
+			style: {
+				color: "#1572B6",
 			},
 		},
 		{
@@ -181,32 +188,40 @@ const skills = {
 	],
 	proficiency: [
 		{
-			skills: "ReactJS | GatsbyJS",
+			skills: "Tensorflow | Keras",
+			proficiency: "85%",
+		},
+		{
+			skills: "Pytorch",
+			proficiency: "81%",
+		},
+		{
+			skills: "OpenCV | OpenAI Gym",
+			proficiency: "82%",
+		},
+		{
+			skills: "Numpy | Pandas",
+			proficiency: "90%",
+		},
+		{
+			skills: "Python | Java | C++",
 			proficiency: "75%",
 		},
 		{
-			skills: "Javascript",
-			proficiency: "70%",
+			skills: "Django | Django Rest Framework | Flask",
+			proficiency: "85%",
 		},
 		{
-			skills: "Java",
-			proficiency: "75%",
+			skills: "Git | Github",
+			proficiency: "80%",
 		},
 		{
-			skills: "CSS | SASS | Bootstrap | HTML",
-			proficiency: "75%",
-		},
-		{
-			skills: "NPM | Git | Github",
-			proficiency: "60%",
-		},
-		{
-			skills: "Python | Firebase | Node.js | ExpressJS",
-			proficiency: "50%",
+			skills: "mmdetection | Scrapy | Selenium | ReactJs",
+			proficiency: "44%",
 		},
 		{
 			skills: "SQL | MySQL | MongoDB",
-			proficiency: "60%",
+			proficiency: "72%",
 		},
 	],
 };
@@ -480,7 +495,7 @@ const projects = {
 			name: "Priority based Traffic System",
 			githubLink: "",
 			image: require("./assets/Images/traff_manag.png").default,
-			technologies: ["OpenAI", "Tensorflow", "Sumo"],
+			technologies: ["OpenAI Gym", "Tensorflow", "Sumo"],
 			websiteLink: "",
 			description:
 				"A Reinforcement Learning System for traffic Management that gives priority to Emergency Vehicles",
@@ -500,7 +515,7 @@ const projects = {
 			name: "Reinforcement Learning for trading",
 			githubLink: "https://github.com/AI4Finance-Foundation/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020",
 			image: require("./assets/Images/rltrade.png").default,
-			technologies: ["OpenAI", "Tensorflow", "Stable Baselines"],
+			technologies: ["OpenAI Gym", "Tensorflow", "Stable Baselines"],
 			websiteLink: "",
 			description:
 				"",
