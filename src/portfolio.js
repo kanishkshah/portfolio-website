@@ -5,7 +5,7 @@ const greeting = {
 	subTitle:
 		"Passionate about Perception, Decision Making and Understanding",
 	resumeLink:
-		"https://drive.google.com/file/d/1q_cWuP38nu1Jb7yZOc4w9zOLzFdrkKXe/view?usp=sharing",
+		"./Ksresume.pdf",
 	portfolio_repository: `https://github.com/kanishkshah/Portfolio-Website`,
 };
 
@@ -15,7 +15,7 @@ const aboutMe = {
 	phone: "+91 9619545492",
 	address: "Mumbai",
 	resumeLink:
-		"https://drive.google.com/file/d/1q_cWuP38nu1Jb7yZOc4w9zOLzFdrkKXe/view?usp=sharing",
+		"./Ksresume.pdf",
 	openForOpportunity: "Yes",
 	message: "My inbox is open for all. Feel free to reach out to me any time. ",
 	portfolio_repository: "https://github.com/kanishkshah/Portfolio-Website",
